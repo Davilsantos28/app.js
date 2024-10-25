@@ -5,7 +5,7 @@ const estilo = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#FFF1DB',
   },
 
   titulo: {
@@ -15,7 +15,8 @@ const estilo = StyleSheet.create({
   },
 
   butao: {
-    backgroundColor: '#3498db',
+    gridgap: '5px 8px',
+    backgroundColor: '#859F3D',
     padding: 10,
     borderRadius: 5,
   },
