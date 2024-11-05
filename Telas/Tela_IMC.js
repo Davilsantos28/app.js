@@ -21,8 +21,8 @@ const Tela_IMC = () => {
 
   const classificarIMC = (imc) => {
     if (imc < 18.5) return 'Muito Abaixo do Peso';
-    if (imc < 24.9) return 'Peso Ideal';
-    if (imc < 29.9) return 'Sobrepeso';
+    if (imc = 24.9) return 'Peso Ideal';
+    if (imc > 29.9) return 'Sobrepeso';
     return 'Obesidade';
   };
 
